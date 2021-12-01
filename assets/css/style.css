@@ -1,11 +1,32 @@
-
+* {margin: 0; padding: 0; box-sizing: border-box;}
 
 body {background-color: rgb(136, 44, 121);}
-header {padding: 25px;
+header {padding: 25px; height: 200px;
     background-color: rgb(53, 132, 151);}
 
     header h2{font-size: 30px; font-weight:bold; font-family: Arial, Helvetica, sans-serif; color: black;}
 
-    section {display: flex;}
-    article {width: 200px; height: 200px; padding: 10px; margin: 10px; }
-    article.background {background-image: url(../images/seamless-texture-crumpled-paper-free.jpg); opacity: .5;}
+
+.matthew {float: right; position: relative; top: -75px;;}
+
+  img {border: 5px double rgb(78, 2, 2);
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;}
+
+
+
+    .flex-container {
+      display: flex; justify-content: space-between;align-items: flex-start; margin: 35px; padding: 80px; width: 50%;
+      background-image: url(../images/seamless-texture-crumpled-paper-free.jpg); opacity: .5}       
+
+      .flex-container .box {
+        width: 50%;
+           margin: 10px;
+           text-align: center;
+           line-height: 75px;
+           font-size: 30px; ;
+         }
+
+        
+        
