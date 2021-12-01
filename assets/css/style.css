@@ -22,10 +22,17 @@ a:hover {color: darkblue;}
 /*End header */
 
 
-.about-me {width: 50%; height: 200px;margin:0 auto; display: flex; flex-wrap: wrap; justify-content: space-around; border-style: double; border-width: 10px;
+.about-me {width: 50%; height: 200px;margin:0 auto; display: block; flex-wrap: wrap; justify-content: space-around; border-style: double; border-width: 10px;
 background-color: peru; display: flex;}
 
-.about-me p {text-align: center; font-size:x-large ; display:flex; color: black;}
+.about-me p {text-align: center; font-size:x-large ; display:block; color: black;}
+
+
+aside {display: block;}
+.resume {width:20%; height: 600px; border-style: double; border-width: 10px;
+  background-color: peru; float: left; padding: 20px;margin: 20px;}
+
+.resume p {text-align: justify; font-size: 17px; ; display:block; color: black;}
 
 
 div {text-align: center; font-size: 60px; color: burlywood; margin: 50px;}
