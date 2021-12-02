@@ -1,15 +1,19 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
-body {background-color: rgb(136, 44, 121);}
+body {background-image: url(../images/168627-brown-textured-background-image\ \(1\).jpg);}
 
 /*Start header */
 
 header {padding: 25px; height: 200px;
-    background-color: rgb(53, 132, 151); box-sizing: border-box;}
+  box-sizing: border-box; background-image: url(../images/brick_wall.jpg);}
 
-    header h2{font-size: 30px; font-weight:bold; font-family: Arial, Helvetica, sans-serif; color: black;}
-header a {font-size: 30px; color: black;}
-a:hover {color: darkblue;}
+
+
+
+    header h2 {font-size: 30px; font-weight:bold; font-family: Arial, Helvetica, sans-serif; color: yellow;}
+    header h3 {color: yellow; font-weight: bold;}
+header a {font-size: 30px; color: yellow;}
+a:hover {color: red;}
 
 
 .matthew {float: right; position: relative; top: -75px;;}
@@ -22,17 +26,14 @@ a:hover {color: darkblue;}
 /*End header */
 
 
+
+
 .about-me {width: 50%; height: 200px;margin:0 auto; display: block; flex-wrap: wrap; justify-content: space-around; border-style: double; border-width: 10px;
 background-color: peru; display: flex;}
 
 .about-me p {text-align: center; font-size:x-large ; display:block; color: black;}
 
 
-aside {display: block;}
-.resume {width:20%; height: 600px; border-style: double; border-width: 10px;
-  background-color: peru; float: left; padding: 20px;margin: 20px;}
-
-.resume p {text-align: justify; font-size: 17px; ; display:block; color: black;}
 
 
 div {text-align: center; font-size: 60px; color: burlywood; margin: 50px;}
@@ -51,4 +52,4 @@ section {display: flex;}
          }
 
         
-        
+  footer {background-color: rgb(53, 132, 151); position: absolute; bottom: 0; width: 100%; }      
