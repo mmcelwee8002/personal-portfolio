@@ -1,37 +1,118 @@
-* {margin: 0; padding: 0; box-sizing: border-box;}
+
 
 body {background-image: url(../images/168627-brown-textured-background-image\ \(1\).jpg);}
 
 /*Start header */
 
-header {padding: 25px; height: 200px;
-  box-sizing: border-box; background-image: url(../images/brick_wall.jpg);}
+header {background-image: url(../images/brick_wall.jpg); 
+  align-items: flex; 
+  height: 275px;
+  top: 0;
+  flex-wrap: wrap; 
+  background-size: cover;
+  }
 
 
 
 
-    header h2 {font-size: 30px; font-weight:bold; font-family: Arial, Helvetica, sans-serif; color: yellow;}
-    header h3 {color: yellow; font-weight: bold;}
+    header h2 {font-size: 30px; 
+      font-weight:bold; 
+      font-family: Arial, Helvetica, sans-serif; 
+      margin: 10px;
+      color: yellow;
+     }
+
+    header h3 {color: yellow; 
+      font-weight: bold;
+      text-align: left;
+      text-align: left;
+    margin: 10px;
+    
+    }
 header a {font-size: 30px; color: yellow;}
 a:hover {color: red;}
 
 
-.matthew {float: right; position: relative; top: -75px;;}
+.matthew-b {float: right;
+   position: relative; 
+  top: -150px;
+  }
 
   img {border: 5px double rgb(78, 2, 2);
     border-radius: 50%;
     padding: 5px;
-    width: 150px;}
+    }
 
 /*End header */
 
 
+.main {max-width: 95%; 
+margin-left: auto;
+margin-right: auto;
+
+}
 
 
-.about-me {width: 50%; height: 200px;margin:0 auto; display: block; flex-wrap: wrap; justify-content: space-around; border-style: double; border-width: 10px;
-background-color: peru; display: flex;}
+.section-1 {display: flex;
+margin: 25px 0;
+padding: 10px 0;
+flex-direction: row;
+align-items: stretch;
+justify-content: space-between;
+}
 
-.about-me p {text-align: center; font-size:x-large ; display:block; color: black;}
+.section-1 > h2 {
+text-align: right;
+padding-right: 15px;
+border-right: 3px solid;
+line-height: 1.1;
+}
+
+
+.section-1 > div {
+flex: 0 0 70%;
+
+}
+
+.navigation {flex-direction: row;
+
+
+}
+
+.section-2 {display: flex;
+  flex-wrap: wrap;
+  max-width: 25%;
+  max-height: 100%;
+margin: 0 0 10px 10px;
+padding: 10px 0;
+flex-direction: column; 
+border-style: double;
+
+}
+
+.section-3 {display: flex;
+  flex-wrap: wrap;
+  max-width: 35%;
+  max-height: 100%;
+margin: 25px 0 10px 10px;
+padding: 10px 0;
+flex-direction: column; 
+border-style: double;
+background-color: peru;
+
+}
+.section-3 > h2 {
+  text-align: center;
+  padding-right: 15px;
+    }
+.about-me { border-style: double; border-width: 10px;
+background-color: peru; }
+
+.section-3 p {text-align: left; 
+  font-size: 20px;
+  display:block; 
+  color: black;
+flex-direction: column;}
 
 
 
@@ -41,7 +122,7 @@ div {text-align: center; font-size: 60px; color: burlywood; margin: 50px;}
 
 
 
-section {display: flex;}
+
   .samples {flex-wrap: wrap; flex: 200px;
       width: 25%;padding: 50px; height: 300px;
            margin: 50px;
@@ -52,4 +133,4 @@ section {display: flex;}
          }
 
         
-  footer {background-color: rgb(53, 132, 151); position: absolute; bottom: 0; width: 100%; }      
+  footer {background-color: rgb(53, 132, 151); bottom: 0; width: 100%; }      
