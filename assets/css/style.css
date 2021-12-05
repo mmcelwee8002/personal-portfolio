@@ -104,20 +104,18 @@ header {background-image: url(../images/red\ abstract.jpg);
   
   }   
      
-   .samples {display: flex;
-    justify-content: space-between;
-       }
+   .samples{
+    display:flex;  
+    flex-wrap:wrap;
+    justify-content:space-between;
+  }
 
 
        .sample-boxes {flex-basis: 12%;}
 
 
-       .sample-boxes-1 {flex-basis: 12%;
-      background-image: url(../images/run-buddy-screenshot.png);
+         
       
-      
-      
-      }
        .samples > h3 {
         text-align: center;
         padding-right: 15px;
