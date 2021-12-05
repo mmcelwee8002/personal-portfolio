@@ -2,6 +2,8 @@
 body {background-image: url(../images/168627-brown-textured-background-image\ \(1\).jpg)
 }
 
+
+
 header {background-image: url(../images/brick_wall.jpg); 
     align-items: flex; 
     height: 275px;
@@ -27,10 +29,19 @@ header {background-image: url(../images/brick_wall.jpg);
   header a {font-size: 30px; color: yellow;}
   a:hover {color: red;}
   
-  
+  nav {align-items: flex; 
+    text-align: center;
+    height: 50px;
+    top: 0;
+    flex-wrap: wrap; 
+    background-size: cover;
+    background-color: rgb(9, 51, 51);
+  }
+
+
   .matthew-b {float: right;
      position: relative; 
-    top: -150px;
+    top: -100px;
     }
   
     img {border: 5px double rgb(78, 2, 2);
@@ -38,6 +49,9 @@ header {background-image: url(../images/brick_wall.jpg);
       padding: 5px;
       }
    
+/*End of Header */
+
+
 .main {max-width: 95%; 
     margin-left: auto;
     margin-right: auto;}
