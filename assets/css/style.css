@@ -60,9 +60,13 @@ header {background-image: url(../images/red\ abstract.jpg);
       
 .top-section {display: flex;
     flex-wrap: wrap;
-  flex-direction: column; 
-   
-  
+  flex-direction: column;
+  background-color: peru; 
+  width: 500px;
+  margin: 20px;
+ vertical-align: middle;
+
+     
   }
   .top-section > h2 {
     text-align: center;
@@ -83,7 +87,9 @@ header {background-image: url(../images/red\ abstract.jpg);
           
           margin: 25px 0;
           padding: 10px 0;
+          width: 300px;
           
+  right: 500px;
           }
           
           .middle-section-box-1 {flex: 2;
@@ -111,7 +117,10 @@ header {background-image: url(../images/red\ abstract.jpg);
   }
 
 
-       .sample-boxes {flex-basis: 12%;}
+       .sample-boxes {flex-basis: auto;
+        width: 600px;
+      height: 300px;
+    margin: 100px;}
 
 
          
@@ -129,3 +138,40 @@ header {background-image: url(../images/red\ abstract.jpg);
     background-color: rgb(53, 132, 151); 
     bottom: 0; 
     width: 100%; }      
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+/*Nothing below these*/
+
+    /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+    @media screen and (max-width: 980px) {
+      .samples {flex: 50%;
+        max-width: 50%;
+         }
+
+      }
+
+        @media screen and (max-width: 768px) {
+          section {
+            padding: 30px 15px;}
+        }
+
+
+        @media screen and (max-width: 575px) {
+
+          .hero-form button {
+            width: 100%;}
+        }
+      
