@@ -43,10 +43,10 @@ header {background-image: url(../images/red\ abstract.jpg);
 
   .matthew-b {float: right;
      position: relative; 
-    top: -100px;
+    top: -115px;
     }
   
-    img {border: 5px double rgb(78, 2, 2);
+    #matt {border: 5px double rgb(78, 2, 2);
       border-radius: 50%;
       padding: 5px;
       }
@@ -64,10 +64,14 @@ header {background-image: url(../images/red\ abstract.jpg);
   background-color: peru; 
   width: 500px;
   margin: 20px;
- vertical-align: middle;
-
-     
-  }
+ vertical-align: middle;}
+    
+ .top-section-box-1 {flex: 2;
+  flex-grow: 2; 
+  flex-shrink: 1;
+  flex-basis: 0%;
+} 
+  
   .top-section > h2 {
     text-align: center;
     padding-right: 15px;
@@ -88,17 +92,20 @@ header {background-image: url(../images/red\ abstract.jpg);
           margin: 25px 0;
           padding: 10px 0;
           width: 300px;
-          
-  right: 500px;
+          right: 500px;
           }
           
           .middle-section-box-1 {flex: 2;
             flex-grow: 2; 
             flex-shrink: 1;
-            flex-basis: 0%;}
+            flex-basis: 0%;
+            position: absolute;
+            left: 1000px;
+          }
 
           .middle-section h2 {
           font-size: 30px;
+          font-family: cursive;
           color: black;
           }
 
@@ -114,20 +121,31 @@ header {background-image: url(../images/red\ abstract.jpg);
     display:flex;  
     flex-wrap:wrap;
     justify-content:space-between;
+   
   }
 
 
        .sample-boxes {flex-basis: auto;
-        width: 600px;
-      height: 300px;
-    margin: 100px;}
+        width: 800px;
+      height: 500px;
+    margin: 100px;
+    background-image: url(../images/seamless-texture-crumpled-paper-free.jpg);}
 
 
-         
+
+/*samples images*/
+
+#sample {
+  width: 775px;
+  height: 475px;
+  margin: 10px;
+  padding: 10px;
+ 
+  }      
       
        .samples > h3 {
         text-align: center;
-        padding-right: 15px;
+        padding-right: 0;
         color: black;
           }
 
