@@ -32,13 +32,15 @@ header {background-image: url(../images/red\ abstract.jpg);
   a:hover {color: red;}
   
   nav {align-items: flex; 
-    text-align: center;
+    text-align: right;
     height: 50px;
-    top: 0;
+        top: 0;
     flex-wrap: wrap; 
     background-size: cover;
     background-image: url(../images/painted-grey-background-with-metal-texture_125540-779.jpg);
   }
+
+nav li {display: inline; padding: 40px;}
 
 
   .matthew-b {float: right;
@@ -62,8 +64,10 @@ header {background-image: url(../images/red\ abstract.jpg);
     flex-wrap: wrap;
   flex-direction: column;
   background-color: peru; 
-  width: 500px;
-  margin: 20px;
+  width:325px;
+  height: 460px;
+  margin-left: 15px;
+  margin-top: 10px;
  vertical-align: middle;}
     
  .top-section-box-1 {flex: 2;
@@ -72,7 +76,7 @@ header {background-image: url(../images/red\ abstract.jpg);
   flex-basis: 0%;
 } 
   
-  .top-section > h2 {
+  .top-section > h3 {
     text-align: center;
     padding-right: 15px;
     color: black;
@@ -87,12 +91,18 @@ header {background-image: url(../images/red\ abstract.jpg);
       .about-me { border-style: double; border-width: 10px;
         background-color: peru; }
 
+
+        /* Try width 100%*/
+
+
         .middle-section {display: flex;
-          
-          margin: 25px 0;
+          margin-left: 900px;
           padding: 10px 0;
-          width: 300px;
+          width: 360px;
           right: 500px;
+          border-width: 10px;
+          border-style: double;
+          align-items: center;
           }
           
           .middle-section-box-1 {flex: 2;
@@ -101,15 +111,28 @@ header {background-image: url(../images/red\ abstract.jpg);
             flex-basis: 0%;
             position: absolute;
             left: 1000px;
+            
           }
+          .middle-section li {display: inline; }
 
-          .middle-section h2 {
-          font-size: 30px;
-          font-family: cursive;
-          color: black;
-          }
+.middle-section h2 {
+            font-size: 40px;
+            color: black;
+            border-bottom: 3px solid;
+            padding-bottom: 20px;
+            text-align: center;
+            margin: 25px;
+                     }
 
-      
+.middle-section h4 {
+  font-size: 15px;
+  color: black;
+   text-align: center;  
+   
+       }
+
+
+
   .samples div, .middle-section div, .top-section div{
 
   border-color: black;
@@ -126,8 +149,8 @@ header {background-image: url(../images/red\ abstract.jpg);
 
 
        .sample-boxes {flex-basis: auto;
-        width: 800px;
-      height: 500px;
+        width: 700px;
+      height: 445px;
     margin: 100px;
     background-image: url(../images/seamless-texture-crumpled-paper-free.jpg);}
 
@@ -136,25 +159,25 @@ header {background-image: url(../images/red\ abstract.jpg);
 /*samples images*/
 
 #sample {
-  width: 775px;
-  height: 475px;
-  margin: 10px;
-  padding: 10px;
- 
-  }      
-      
-       .samples > h3 {
+  width: 634px;
+  height: 376px;
+  margin-top: -20px;
+  padding: 20px;
+   }      
+     
+       .sample-boxes h3 {
         text-align: center;
         padding-right: 0;
         color: black;
-          }
-
+        text-shadow: 0 0 10px rgb(134, 132, 132);
+          } 
+      .sample-hover :hover {color: red;} 
 
   footer {display: flex;
     justify-content: space-between;;
       
     background-color: rgb(53, 132, 151); 
-    bottom: 0; 
+   margin-bottom: -10px; 
     width: 100%; }      
 
 
