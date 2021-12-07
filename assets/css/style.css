@@ -2,6 +2,7 @@
 body {background-image: url(../images/168627-brown-textured-background-image\ \(1\).jpg);
   display: block;
 margin: 0;
+
 }
 
 
@@ -12,9 +13,10 @@ header {background-image: url(../images/red\ abstract.jpg);
     top: 0;
     flex-wrap: wrap; 
     background-size: cover;
+  width: auto;
     }
 
-    header h2{font-size: 30px; 
+    header h2, footer h2, footer a{font-size: 30px; 
         font-weight:bold; 
         font-family: Arial, Helvetica, sans-serif; 
         margin: 10px;
@@ -55,7 +57,7 @@ color: rgb(38, 219, 38);
 
   .matthew-b {float: right;
      position: relative; 
-    top: -115px;
+    top: -50px;
     }
   
     #matt {border: 5px double rgb(78, 2, 2);
@@ -93,9 +95,6 @@ color: rgb(38, 219, 38);
         color: black;
       flex-direction: column;}
   
-      .about-me { border-style: double; border-width: 10px;
-        background-color: peru; }
-
 
         /* Try width 100%*/
 
@@ -151,7 +150,7 @@ color: rgb(38, 219, 38);
     display:flex;  
     flex-wrap:wrap;
     justify-content:space-between;
-   
+   padding: 100px;
   }
 
 
@@ -169,6 +168,15 @@ background-image: url(../images/seamless-texture-crumpled-paper-free.jpg);}
     margin: 100px;
     background-image: url(../images/seamless-texture-crumpled-paper-free.jpg);}
 
+
+    .about-me { border-style: double; 
+      border-width: 10px;
+      background-color: peru; 
+      width: 600px;
+      height: 445px;
+    margin: 100px;
+    
+    }
 
 
 /*samples images*/
@@ -190,7 +198,7 @@ background-image: url(../images/seamless-texture-crumpled-paper-free.jpg);}
    }      
      
 
-   .sample-boxes-main h3 {
+   .sample-boxes-main h3, .about-me h3 {
     text-align: center;
     padding-right: 0;
     color: black;
@@ -222,11 +230,10 @@ height: 150px;
 }      
 
 
+footer li, footer h2, footer a {display: inline; padding: 40px;
+  color: rgb(38, 219, 38);
+}
 
-    footer a {font-size: 30px; 
-      color: rgb(38, 219, 38);
-    float:left
-    }
 
     a:hover {color: red;}
 
