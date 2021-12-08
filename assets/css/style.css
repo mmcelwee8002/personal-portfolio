@@ -1,71 +1,72 @@
 
+
+
 body {background-image: url(../images/168627-brown-textured-background-image\ \(1\).jpg);
-  display: block;
+  /* display: block; */
 margin: 0;
 
 }
 
+/*appies sytle to <header>*/
+header {padding: 20px 35px;
+  background-color: #39a6b2;display: flex; justify-content: space-between;
+flex-wrap: wrap;
+ top: 0;
+position: -webkit-sticky;
 
+top: 0;
+background-image: url(../images/red\ abstract.jpg);
+background-size: cover; background-position: 80%;
+background-attachment: fixed;   z-index: 9999;}
 
-header {background-image: url(../images/red\ abstract.jpg); 
-    align-items: flex; 
-    height: 275px;
-    top: 0;
-    flex-wrap: wrap; 
-    background-size: cover;
-  width: auto;
-    }
+header h1 { font-weight: bold;
+font-size: 36px;
+color: #38fc8a;
+margin: 0; 
+text-shadow: 0 0 10px rgba(0, 0, 0, 5);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-    header h2, footer h2, footer a{font-size: 30px; 
-        font-weight:bold; 
-        font-family: Arial, Helvetica, sans-serif; 
-        margin: 10px;
-        color: rgb(38, 219, 38);
-       }
-  
-      header h3 {color: rgb(38, 219, 38); 
-        font-weight: bold;
-        text-align: left;
-        text-align: left;
-      margin: 10px;
-      
-      }
-  header a {font-size: 30px; 
-    color: rgb(38, 219, 38);
-  
-  
-  }
-  a:hover {color: red;}
-  
+header a {color: #38fc8a; text-decoration: none;}
 
+header nav {
+  display:flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  align-items: center; 
+  list-style: none}
 
-  nav {align-items: flex; 
-    text-align: right;
-    height: 50px;
-        top: 0;
-        margin: 0;
-    flex-wrap: wrap; 
-    background-size: cover;
-    background-image: url(../images/painted-grey-background-with-metal-texture_125540-779.jpg);
-  }
+header nav ul li {display: inline;}
 
-nav li {display: inline; padding: 40px;
-color: rgb(38, 219, 38);
+header nav ul li a {
+  padding: 10px 15px; 
+  font-weight: lighter; 
+  font-size: 1.55vw;
+text-shadow: 0 0 10px rgba(0, 0, 0, 5);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+header nav ul li a:hover {
+  color:red;
+  border-radius: 15px; 
+  text-shadow:black;
 }
 
 
-  .matthew-b {float: right;
-     position: relative; 
-    top: -50px;
-    }
-  
-    #matt {border: 5px double rgb(78, 2, 2);
-      border-radius: 50%;
-      padding: 5px;
-      }
-   
-/*End of Header */
+
+.matthew-b {
+    
+  right: 0px;
+   position: absolute; 
+  top: 100px;
+  }
+
+
+  #matt {border: 5px double rgb(78, 2, 2);
+    border-radius: 50%;
+    padding: 5px;
+    } 
+
 
 .top-section {display: flex;
     flex-wrap: wrap;
@@ -94,9 +95,9 @@ color: rgb(38, 219, 38);
         display:block; 
         color: black;
       flex-direction: column;}
-  
+   */
 
-        /* Try width 100%*/
+       
 
 
         .middle-section {display: flex;
@@ -135,7 +136,7 @@ color: rgb(38, 219, 38);
   color: black;
    text-align: center;  
    
-       }
+}
 
 
 
@@ -146,30 +147,44 @@ color: rgb(38, 219, 38);
   
   }   
      
-   .samples{
+   .sample-container{
     display:flex;  
     flex-wrap:wrap;
+    flex-shrink: 2;
     justify-content:space-between;
-   padding: 100px;
+   padding: 0;
   }
 
+.sample-container li {
+  list-style-type: none;
+}
 
-
-  .sample-boxes-main {flex-basis: auto;
-    width: 1000px;
+  .sample-boxes-large {
+    display: flex;
+    
+    width: 53vw;
   height: 630px;
-margin: 100px 100px 0 500px;
-background-image: url(../images/seamless-texture-crumpled-paper-free.jpg);}
+
+background-image: url(../images/seamless-texture-crumpled-paper-free.jpg);
+align-items: flex-start;
+justify-content: center;
+flex-wrap: nowrap;
+
+}
 
 
-       .sample-boxes {flex-basis: auto;
+
+
+
+       .sample-boxes-small {
+         display: flex;
         width: 600px;
       height: 445px;
     margin: 100px;
     background-image: url(../images/seamless-texture-crumpled-paper-free.jpg);}
 
 
-    .about-me { border-style: double; 
+    #about-me { border-style: double; 
       border-width: 10px;
       background-color: peru; 
       width: 600px;
@@ -183,36 +198,30 @@ background-image: url(../images/seamless-texture-crumpled-paper-free.jpg);}
 
 
 
-#sample-main {
-  width: 950px;
-  height: 550px;
-  margin-top: -20px;
+.sample-large-image {
+  width: 53vw;
+  height: 523px;
+  margin: 65px 0 0 -200px;
   padding: 20px;
    }      
 
-#sample {
-  width: 570px;
-  height: 376px;
-  margin-top: -20px;
-  padding: 20px;
+.small-container-image {
+  width: 517px;
+  height: 340px;
+  margin-top: 90px;
+  
    }      
      
-
-   .sample-boxes-main h3, .about-me h3 {
-    text-align: center;
+.sample-boxes-small h2 .about-me h2
+   {text-align: center;
+    
     padding-right: 0;
     color: black;
     text-shadow: 0 0 10px rgb(134, 132, 132);
       } 
 
-
-       .sample-boxes h3 {
-        text-align: center;
-        padding-right: 0;
-        color: black;
-        text-shadow: 0 0 10px rgb(134, 132, 132);
-          } 
-      .sample-hover :hover {color: red;} 
+      .sample-boxes-small h3:hover {color: red;
+      text-shadow: black;} 
 
 
 
@@ -221,21 +230,26 @@ background-image: url(../images/seamless-texture-crumpled-paper-free.jpg);}
 
 footer {display: flex;
   justify-content: space-between;;
-    
-  background-color: rgb(53, 132, 151); 
+  background-image: url(../images/red\ abstract.jpg);  
+  background-size: cover;
   bottom: 0; 
   width: 100%;
 
-height: 150px;
+  height: 150px;
 }      
 
 
-footer li, footer h2, footer a {display: inline; padding: 40px;
+footer li, footer h2, footer a {
+  display: inline; 
+  font-size: 35px;
+  padding: 40px;
   color: rgb(38, 219, 38);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#phone {font-size: 35px;}
 
-
-    a:hover {color: red;}
+    a:hover {color: red;
+    text-shadow: black;}
 
 
    
