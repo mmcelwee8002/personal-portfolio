@@ -157,6 +157,7 @@ header nav ul li a:hover {
 
 .sample-container li {
   list-style-type: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
   .sample-boxes-large {
@@ -214,7 +215,7 @@ flex-wrap: nowrap;
      
 .sample-boxes-small h2 .about-me h2
    {text-align: center;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-right: 0;
     color: black;
     text-shadow: 0 0 10px rgb(134, 132, 132);
@@ -243,7 +244,7 @@ footer li, footer h2, footer a {
   display: inline; 
   font-size: 35px;
   padding: 40px;
-  color: rgb(38, 219, 38);
+  color: #38fc8a;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #phone {font-size: 35px;}
