@@ -13,16 +13,18 @@ The others are sample websites that are used as placeholders.
 * CSS
 
 ## Website
-<>
+
+[Portfolio]  (https://mmcelwee8002.github.io/Challenge_2_Portfolio_MM/)
 
 ## Contribution
 Matthew McElwee
 
 
+### Screenshots of Portfolio
+ ![Top of portfolio page] (/assets/images/top-screen.png  "Top of page")
 
-### Screenshots of this page
-/assets/images/top-screen.png
+ ![middle of portfolio page] (/assets/images/middle-screen.png  "Middle of page")
 
-/assets/images/middle-screen.png
+![bottome of portfolio page] (/assets/images/lower-screen.png  "Bottom of page")
 
-/assets/images/lower-screen.png
+
