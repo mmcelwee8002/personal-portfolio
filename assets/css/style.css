@@ -204,6 +204,8 @@ flex-wrap: nowrap;
   height: 523px;
   margin: 65px 0 0 -200px;
   padding: 20px;
+  object-position: 75px;
+  object-fit: cover;
    }      
 
 .small-container-image {
