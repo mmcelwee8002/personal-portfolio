@@ -7,165 +7,98 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8" />
   <title>Matthew McElwee</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-
-  <header>
-  
-    <h1>
-      Matthew McElwee
-    </h1>
-    <div>
-      <img id="matt" class="matthew-b" src="./assets/images/MM.jpg" alt="Matthew" style="width:150px" ;>
+ <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"> Matthew McElwee</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
+  </div>
+</div> 
+
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+<!-- Project Section -->
+<div class="w3-container w3-padding-32" id="projects">
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
 </div>
-    <nav>
-      <!--Unordered List element-->
-      <ul style="list-style: none;">
-        <!--List item Element-->
-  
-        <li>
-          <!--Anchor Element-->
-          <a href="#sample-projects">Sample Projects</a>
-        </li>
-  
-        <li>
-          <a href="#about-me">About Me</a>
-        </li>
-  
-        <li>
-          <a href="#phone">Contact Me</a>
-        </li>
-  
-       
-      </ul>
-    </nav>
-  </header>
 
 
-  <main>
+<div class="w3-row-padding" >
+  <div class="w3-col l3 m6 w3-margin-bottom ">
+    <div class="w3-display-container w3-hover-opacity">
+      <div class="w3-container w3-center w3-deep-purple w3-padding">Weather application</div>
+      <p><a href="https://mmcelwee8002.github.io/Weather_Dashboard_APIs-Challenge_MM/" target="_blank">
+        <img src="./assets/images/Weather-Full-Screen-4-3.png" alt="Weather application WebSite" style="width:100%">
+  </a></p>
+    </div>
+  </div>
+  <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container w3-hover-opacity">
+      <div class="w3-container w3-center w3-deep-purple w3-padding">Run-Buddy</div>
+      <p><a href="https://mmcelwee8002.github.io/Run-Buddy/" target="_blank">
+        <img src="./assets/images/run-buddy-screenshot-4-3.png" alt="Run Buddy WebSite" style="width:100%">
+  </a></p>
+    </div>
+  </div>
+  <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container w3-hover-opacity">
+      <div class="w3-container w3-center w3-deep-purple w3-padding">Space Launcher</div>
+      <p><a href="https://cynogriffin.github.io/spacelaunch-tracker/" target="_blank">
+        <img src="./assets/images/space-launch-4-3.png" alt="Space Launcher WebSite" style="width:100%">
+  </a></p>
+    </div>
+  </div>
 
-
-
-    <!-- <div class= "container">
-        <h2>Sample projects</h2>
-        
-        <h3>Click title or image to launch page</h3>
-      </li>
-    </div> -->
-
-    <div class="container" id="sample-projects">
-      <div class="sample-boxes-large">
-
-        <h2> <a href="https://mmcelwee8002.github.io/Run-Buddy/" target="_blank"> Run-Buddy</h2>
-        </a>
-
-        <a href="https://mmcelwee8002.github.io/Run-Buddy/" target="_blank">
-          <img class="sample-large-image" src="./assets/images/run-buddy-screenshot.png">
-
-
-      </div>
-
-      <div "container-sm">
-
-        <h2><a href="https://www.kare11.com/" target="_blank"> Kare-11</h2>
-        </a> 
-
-
-        <img class="small-container-image" src="./assets/images/Kare-11.png">
-
-      <!-- </div> -->
-
-      <!-- <div class="sample-boxes-small"> -->
-       <h2><a href="https://www.emagine-entertainment.com/theatres/emagine-rogers/" 
-        target="_blank">Rogers-theater</h2>
-        </a>
-
-
-        <img class="small-container-image" src="./assets/images/Rogers-theater.png">
-
-      <!-- </div> -->
-
-      <!-- <div class="sample-boxes-small"> -->
-
-        <h2><a href="https://www.rottentomatoes.com/" 
-          target="_blank">Rotten Tomatoes</h2>
-          </a>
-  
-  
-          <img class="small-container-image" src="./assets/images/rotton-tomato.png">
-  
-        </div>
-
-
-      <div id="about-me">
-
-        <h3>About Me</h2>
-        <p>Driven, organized MBA-credentialed project leader with expertise in business, media and problem solving;
-          eager to contribute industry expertise as well as strong business development, client relations and
-          administrative / operational management. Skilled in optimizing companies’ bottom-line performance.
-        </p>
-        <br>
-        <p>
-          Business and Product Owner. Function as a business and product owner, project manager, and business partner on
-          cross-department projects, including: HR Systems (WorkDay), SharePoint, healthcare IT, CRM, online degree
-          planning tool, mobile prescription app, pharmacy dispensing system, IVR, others.
-        </p>
-
-        <p>Enterprise Projects. Participation on projects affecting 400k+ team members; leadership of multi-disciplinary
-          projects at the department level.
-        </p>
-
-        <p>Full Project Lifecycle. Project management and support throughout project life cycles, from initiation
-          through closing: Requirement gathering, defining scope, planning schedules and milestones, monitoring budget,
-          directing team assignments, validating requirements and testing.
-
-
-        </p>
-
-      </div>
+  <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container w3-hover-opacity">
+      <div class="w3-container w3-center w3-deep-purple w3-padding ">Work Day Scheduler</div>
+      <p><a href="https://mmcelwee8002.github.io/Workday-Scheduler-Challenge-MM/" target="_blank">
+      <img src="./assets/images/workday-scheduler.png" alt="workday-scheduler WebSite" style="width:100%">
+</a></p>
+    </div>
+  </div>
 
 
 
-
-
-  </main>
-
-  <footer>
-    <ul style="list-style: none;">
-      <li id="phone">
-        <a href="https://www.linkedin.com/in/mmcelwee/" target="_blank"> Linkedin</a>
-      </li>
-
-      <li>
-        <a href="tel:6122100725">612.210.xxxx</a>
-        
-      </li>
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Me</h3>
+    <p>Driven, organized MBA-credentialed project leader with expertise in business, media and problem solving; eager to contribute industry expertise as well as strong business development, client relations and administrative / operational management. Skilled in optimizing companies’ bottom-line performance.
       
-      <li>
-        <a href="mailto:  mmcelwee8002@gmail.com"> Send Email</a>
-      </li>
-      <li>
-        <a href="https://github.com/mmcelwee8002?tab=repositories" target="_blank"> Github</a>
-      </li>
+      Business and Product Owner. Function as a business and product owner, project manager, and business partner on cross-department projects, including: HR Systems (WorkDay), SharePoint, healthcare IT, CRM, online degree planning tool, mobile prescription app, pharmacy dispensing system, IVR, others.
+      
+      Enterprise Projects. Participation on projects affecting 400k+ team members; leadership of multi-disciplinary projects at the department level.
+      
+      Full Project Lifecycle. Project management and support throughout project life cycles, from initiation through closing: Requirement gathering, defining scope, planning schedules and milestones, monitoring budget, directing team assignments, validating requirements and testing.
+    </p>
+  </div>
+
+  <footer >
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="#home" class="w3-bar-item w3-button"> Matthew McElwee</a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="https://www.linkedin.com/in/mmcelwee/" target="_blank" class="w3-bar-item w3-button" id="contact">Linkedin</a>
+        <a href="tel:612210xxxx" class="w3-bar-item w3-button">612.210.xxxx</a>
+        <a href="mmcelwee8002@gmail.com" target="_blank"  class="w3-bar-item w3-button">E-mail</a>
+        <a a href="https://github.com/mmcelwee8002?tab=repositories" target="_blank" class="w3-bar-item w3-button">Github</a>
+      </div>
 
 
-    </ul>
-  </footer>
-
-
-
-
-
-
-
-
-
-
-
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
