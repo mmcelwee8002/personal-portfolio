@@ -15,3 +15,6 @@ p {
   color: white;
 font-size: large;
 }
+footer{
+  position: absolute;
+}
