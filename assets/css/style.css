@@ -1,6 +1,8 @@
 
 * {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
+
+
 body {background-image: url(../images/168627-brown-textured-background-image\ \(1\).jpg);
   /* display: block; */
 margin: 0;
@@ -11,10 +13,15 @@ margin: 0;
 margin: 150px;
 }
 
-p {
+h3 {
   color: white;
 font-size: large;
 }
-footer{
+
+#footer {
   position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+  height: 2.5rem;            /* Footer height */
 }
