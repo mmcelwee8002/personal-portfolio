@@ -18,7 +18,7 @@ Matthew McElwee
 
 
 ### Screenshots of Portfolio
- ![Top of portfolio page](/assets/images/updatedpage.png) "Main page")
+ ![Top of portfolio page](/assets/images/updated-portfolio.png) "Main page")
 
 
 
